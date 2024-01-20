@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE-edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+         <title>create a form</title>
+
+    </head>
+    <body>
+        <h3>How to Create a Form!</h3>
+        <hr>
+
+        <form action="index.php" method="POST" enctype="multipart/form-adat"> <!--action=index.php is the file which after the form is filled, the filled file will be stored at.-->
+        
+            <label for="username">username:</label> 
+            <input type="text" id="username" placeholder="spongebob" minlength="6" maxlength=20 required><br>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="6" maxlength=20 required><br>
+            
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="spongebob@gmail.com"required><br>
+            
+            <label for="phone number">phone number:</label>
+            <input type="tel" id="phone number" placeholder="123-456-7980" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            
+            <label for="date">date:</label>
+            <input type="date" id="date"><br>
+
+            <label for="quantity">quantity:</label>
+            <input type="number" id="quantity" min="0" max="1000" value="1"><br>
+
+            <label for="Mr.">Mr.:</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.:</label>
+            <input type="radio" id="Ms." value="Ms:" name="title">
+            <label for="PHD.">PHD.:</label>
+            <input type="radio" id="PHD." value="PHD" name="title"><br>
+
+            <label for="payment">payment</label>
+            <select>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+
+            </select><br> 
+
+            
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label type="comment">comment:</label><br>
+            <textarea id="comment" rows="3" cols="25"></textarea>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="data/png, data/gpeg"><br>
+
+
+
+            <input type="reset"><br><br>
+            
+            <input type="submit">
+
+        </form>
+
+
+    </body>
+</html> 
