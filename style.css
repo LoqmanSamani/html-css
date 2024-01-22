@@ -1,0 +1,31 @@
+body{
+    bachground-color: black; 
+}
+h1{
+   color: white;
+}
+
+#p1{
+    color:red;
+}
+#p2{
+    color:orange;
+}
+#p3{
+    color: green;
+}
+#p4{
+    color: blue;
+}
+
+
+/*
+you can use attribute class to add variables instead of id.
+.odd{
+    color:red;
+}
+
+.even{
+    color:blue;
+}
+*/
