@@ -1,0 +1,39 @@
+/*https://fonts.google.com/*/
+
+@font-face{
+    src: url(fonts/Roboto-Black.ttf);
+    font-family: Roboto;
+}
+
+@font-face{
+    src: url(fonts/Roboto-Blackitalic.ttf);
+    font-family: Roboto1;
+}
+
+
+h1{
+    font-family: Roboto, arial;
+    font-weight: bold;
+    font-style: bold;
+}
+
+#p1{
+    font-family: "lucida cobsole", "courier new";
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: bold;
+}
+
+#p2{
+    font-family:'Times New Roman', Times;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#p3{
+    font-family:Roboto1, monospace;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: unset;
+}

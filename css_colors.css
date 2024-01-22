@@ -1,0 +1,32 @@
+/*Change the packground color for the colors.html*/
+body{
+    background-color: rgb(9, 4, 10) ; /*color picker*/
+}
+
+
+/*Change the color of each paragraph in colors.html*/
+
+#h1{
+    color:white;
+}
+
+#p1{
+    color:red;
+}
+
+#p2{
+    color:#8e22b3;
+}
+
+#p3{
+    color:rgb(230, 101, 9);
+}
+
+#p4{
+    color:blue;
+}
+
+#p5{
+    color:green;
+}
+
